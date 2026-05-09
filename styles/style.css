@@ -1,4 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
+.menu {
+  display: flex;
+  width: 400px;
+  height: 22px;
+  margin-top: 50px;
+  background-color: rgb(100, 100, 100);
+  align-items: center;
+  justify-content: space-around;
+}
+
+header {
+  width: 1100px;
+  height: 293px;
+  background-color: rgb(120, 123, 123);
 }
