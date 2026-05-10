@@ -1,15 +1,30 @@
 .menu {
   display: flex;
+  margin-top: 133px;
+  margin-left: 50px;
   width: 400px;
   height: 22px;
-  margin-top: 50px;
-  background-color: rgb(100, 100, 100);
   align-items: center;
   justify-content: space-around;
 }
 
 header {
+  display: flex;
   width: 1100px;
   height: 293px;
-  background-color: rgb(120, 123, 123);
+  border: 1px solid black;
+}
+
+.logo {
+  margin-top: 92px;
+  margin-left: 37px;
+}
+
+.contacts {
+  width: 240px;
+  height: 98px;
+  margin-top: 95px;
+  margin-left: 184px;
+
+  line-height: 25px;
 }
