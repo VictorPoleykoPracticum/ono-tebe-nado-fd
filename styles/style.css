@@ -174,7 +174,6 @@ header {
   position: relative;
   height: 596px;
   width: 334px;
-  background-color: #c0c0c0;
   background-position: top;
   background-size: auto 596px;
   box-sizing: border-box;
@@ -186,7 +185,23 @@ header {
 .card-title {
   display: flex;
   width: 100%;
-  
+  z-index: 2;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 48px;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.card-description {
+  display: flex;
+  z-index: 2;
+  color: white;
 }
 
 .card1 {
