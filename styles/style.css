@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-body {
-  background-color: #c0c0c0; /* TODO: delete this line completely (made for work comfort) */
-}
-
 .menu {
   display: flex;
   margin-top: 133px;
@@ -36,6 +32,9 @@ header {
   height: 98px;
   margin-top: 95px;
   margin-left: 192px;
+}
+
+.contacts-style {
   line-height: 25px;
   font-size: 18px;
 }
@@ -137,6 +136,8 @@ header {
   z-index: 1;
 }
 
+/* ============Конец cover, начало lots============ */
+
 .section-lots {
   display: flex;
   height: 1000px;
@@ -230,10 +231,11 @@ header {
   margin-left: 40px;
 }
 
+/* ============Конец lots, начало description============ */
+
 .section-description {
-  height: 650px;
+  height: 800px;
   background-color: white;
-  
 }
 
 .description {
@@ -285,4 +287,37 @@ header {
   font-size: 20px;
   width: 693px;
   height: auto;
+}
+
+/* ============Конец description, начало footer============ */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 180px;
+  background-color: white;
+}
+
+.contacts-footer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-left: 50px;
+}
+
+.menu-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 150px;
+  font-size: 18px;
+}
+
+.socials {
+  display: flex;
+  padding-right: 50px;
+  justify-content: space-between;
+  margin-left: 10px;
+  width: 290px;
 }
