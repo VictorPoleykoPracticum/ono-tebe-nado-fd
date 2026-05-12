@@ -56,7 +56,7 @@ header {
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 1100px;
+  width: auto;
   height: 757px;
   background-image: url("../images/cover.jpg");
   background-position: top;
@@ -64,7 +64,7 @@ header {
 }
 
 .cover-image {
-  width: 1100px;
+  width: auto;
   height: 757px;
 }
 
@@ -101,7 +101,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 521px 51px;
-  width: 1100px;
+  width: auto;
   height: 500px;
   color: white;
   font-size: 22px;
@@ -140,7 +140,7 @@ header {
 .section-lots {
   display: flex;
   height: 1000px;
-  width: 1100px;
+  width: auto;
   background-color: white;
   justify-content: center;
 }
