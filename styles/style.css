@@ -151,9 +151,9 @@ header {
   height: 800px;
   box-sizing: border-box;
   flex-wrap: wrap;
-
+  /*
   border: 1px solid black;
-
+  */
   margin-top: 170px;
   justify-content: space-between;
 }
