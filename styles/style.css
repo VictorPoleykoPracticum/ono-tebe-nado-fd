@@ -228,13 +228,14 @@ header {
 }
 
 .lots-button {
+  display: block;
   height: auto;
   width: 200px;
-  margin-top: 29px;
+  margin-top: 30px;
   font-size: 20px;
   text-decoration: underline;
   text-underline-offset: 4px;
-  margin-left: 35px;
+  margin-left: 40px;
   background-color: transparent;
   border: none;
   cursor: pointer;
