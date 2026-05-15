@@ -12,7 +12,7 @@ a {
   text-underline-offset: 4px;
 }
 
-.menu{
+.menu {
   display: flex;
   margin-left: 45px;
   align-items: center;
@@ -78,7 +78,6 @@ a {
 
 .cover-image {
   width: auto;
-
 }
 
 .cover-text-frame {
@@ -98,7 +97,6 @@ a {
   font-weight: bold;
   letter-spacing: 30%;
   line-height: 135px;
-
 }
 
 .cover-button {
@@ -115,7 +113,6 @@ a {
 .cover-word-left {
   display: block;
   text-align: start;
-  
 }
 
 .cover-word-center {
@@ -331,5 +328,3 @@ a {
   width: 290px;
   list-style: none;
 }
-
-
