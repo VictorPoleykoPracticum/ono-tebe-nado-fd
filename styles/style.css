@@ -3,20 +3,43 @@
   padding: 0;
 }
 
-.menu ul {
+.menu{
   display: flex;
+  flex-wrap: nowrap;
   margin-top: 133px;
   margin-left: 45px;
-  width: 400px;
+  width: 393px;
   height: 22px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 18px;
+
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 393px;
+  height: 22px;
+  
+}
+
+.menu-list-item-marker {
+  list-style: circle;
+}
+
+.menu-list-item_no-marker {
   list-style: none;
 }
 
-a {
+.menu-link-active {
   text-decoration: none;
+}
+
+
+a {
+  text-underline-offset: 4px;
 }
 
 header {
@@ -28,7 +51,7 @@ header {
 
 .logo {
   margin-top: 92px;
-  margin-left: 39px;
+  margin-left: 45px;
 }
 
 .contacts {
@@ -42,16 +65,6 @@ header {
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
-}
-
-.contact-accent {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.text-underline {
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 /* ============Конец header, начало cover============ */
@@ -72,21 +85,24 @@ header {
   height: 757px;
 }
 
-.cover-text {
+.cover-text-frame {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 0px;
-  padding-top: 82px;
-  padding-left: 25px;
-  width: 1055px;
-  height: 135px;
+  margin-top: 155px;
+  padding-left: 50px;
+  width: 1080px;
+  z-index: 2;
+}
+
+.cover-text {
   color: white;
   text-transform: uppercase;
   font-size: 100px;
   font-weight: bold;
   letter-spacing: 30%;
-  z-index: 2;
+  line-height: 135px;
+
 }
 
 .cover-button {
@@ -100,22 +116,26 @@ header {
   background-color: transparent;
 }
 
-.cover-word-1 {
+.cover-word-upper {
+  display: block;
   text-align: start;
+  
 }
 
-.cover-word-2 {
+.cover-word-middle {
+  display: block;
   text-align: center;
 }
 
-.cover-word-3 {
+.cover-word-lower {
+  display: block;
   text-align: end;
 }
 
 .cover-description {
   display: flex;
   justify-content: space-between;
-  padding: 521px 51px;
+  padding: 96px 51px;
   width: auto;
   height: 500px;
   color: white;
@@ -215,15 +235,15 @@ header {
   padding: 0 40px 48px 40px;
 }
 
-.card1 {
+.card-left {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.card2 {
+.card-middle {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.card3 {
+.card-right {
   background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -307,21 +327,17 @@ header {
   width: auto;
   height: 180px;
   background-color: white;
-}
-
-.contacts-footer {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
   padding-left: 50px;
 }
 
-.menu-footer {
+
+.menu-list {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 150px;
   font-size: 18px;
+  list-style: none;
   list-style: none;
 }
 
@@ -333,3 +349,5 @@ header {
   width: 290px;
   list-style: none;
 }
+
+
