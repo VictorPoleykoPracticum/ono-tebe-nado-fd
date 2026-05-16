@@ -26,13 +26,10 @@ a {
   width: 100%;
   max-width: 393px;
   height: auto;
-}
-
-.menu-list-item-marker {
   list-style: circle;
 }
 
-.menu-list-item_no-marker {
+.menu-list-item-no-marker {
   list-style: none;
 }
 
@@ -61,6 +58,7 @@ a {
   font-size: 18px;
   font-style: normal;
   text-underline-offset: 4px;
+  max-width: 250px;
 }
 
 /* ============Конец header, начало cover============ */
@@ -80,23 +78,36 @@ a {
   width: auto;
 }
 
-.cover-text-frame {
+.cover-title {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   margin-top: 155px;
   padding-left: 50px;
-  width: 1080px;
   z-index: 2;
-}
-
-.cover-text {
+  width: 1080px;
   color: white;
   text-transform: uppercase;
-  font-size: 100px;
+  font-size: 50px;
   font-weight: bold;
   letter-spacing: 30%;
   line-height: 135px;
+
+}
+.cover-words{
+  width: 100%;
+}
+
+.cover-first-word {
+  display: block;
+}
+
+.cover-second-word {
+  display: block;
+  text-align: center;
+}
+
+.cover-third-word {
+  display: block;
+  text-align: end;
 }
 
 .cover-button {
@@ -110,20 +121,6 @@ a {
   background-color: transparent;
 }
 
-.cover-word-left {
-  display: block;
-  text-align: start;
-}
-
-.cover-word-center {
-  display: block;
-  text-align: center;
-}
-
-.cover-word-right {
-  display: block;
-  text-align: end;
-}
 
 .cover-description {
   display: flex;
@@ -218,15 +215,15 @@ a {
   padding: 0px 40px 45px 40px;
 }
 
-.card-left {
+.card-film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.card-middle {
+.card-book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.card-right {
+.card-painting {
   background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -285,7 +282,7 @@ a {
   flex-direction: column;
 }
 
-.description-text-upper {
+.description-text-first-paragraph {
   display: flex;
   font-size: 20px;
   width: 687px;
@@ -293,7 +290,7 @@ a {
   padding-bottom: 23px;
 }
 
-.description-text-lower {
+.description-text-second-paragraph {
   display: flex;
   font-size: 20px;
   width: 693px;
