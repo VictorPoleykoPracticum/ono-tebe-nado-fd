@@ -90,9 +90,8 @@ a {
   font-weight: bold;
   letter-spacing: 30%;
   line-height: 135px;
-
 }
-.cover-words{
+.cover-words {
   width: 100%;
 }
 
@@ -120,7 +119,6 @@ a {
   cursor: pointer;
   background-color: transparent;
 }
-
 
 .cover-description {
   display: flex;
